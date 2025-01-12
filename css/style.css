@@ -1,0 +1,139 @@
+.wrapper {
+    background-image:url(../../assets/img/image4.jpg) no-repeat;
+    height:100%;
+  }
+
+body{
+    background-color: #282829;
+    padding: 150px 10px;
+}
+
+.container{
+    max-width: 1100px;
+    max-height: 600px;
+    margin: 0 auto;
+}
+  
+.registration{
+    background-color: #fff;
+    background-image:url('../img/background.png');
+    border-radius: 24px;
+    max-width: 1142px;    
+}
+
+.registration__text{
+    font-weight: 400;
+    font-size: 54px;
+    line-height: 110%;
+    color: #38535d;
+    margin: 0 0 20px 0;
+}
+
+.registration__body{
+    padding: 72px 0px 72px 50px;
+    max-width: 400px;
+}
+
+.form__input-item{
+    width: 375px;
+    padding: 10px 0px 10px 25px;
+    margin: 0 0 14px 0;
+    color: #d6d6d6;
+    border: 2px solid #d6d6d6;
+    border-radius: 4px;
+}
+
+.form__text{
+    font-weight:400;
+    font-size: 12px;
+    line-height: 130%;
+    color: #939393;
+    font-family: "Arial", sans-serif;
+}
+
+.registration__button{
+    border: none;
+    border-radius: 4px;
+    padding: 20px 32.5px;
+    background: #282829;
+    text-transform: uppercase;
+    color: #fff;
+    width: 100%;
+    margin: 14px 0 0 0;
+}
+
+.registration__form{
+    position: relative;
+}
+
+.registration__image{
+    position: absolute;
+    bottom: -8px;
+    right: 80px;
+}
+
+.registration__img{
+    max-width: 500px;
+}
+
+@media (max-width: 992px) {
+    .registration__body{
+        padding: 50px 0 50px 20px;
+        max-width: 400px;
+    }
+    .registration__text{
+        font-size: 40px;
+    }
+    .registration__img{
+        max-width: 400px;
+    }
+    .container{
+        max-width: 900px;
+    }
+    .registration{
+        max-width: 850px;    
+    }
+    .registration__image{
+        right: 10px;
+    }
+}
+
+@media (max-width: 767px) {
+    .registration__img{
+        max-width: 0px;
+    }
+    .container{
+        max-width: 700px;
+    }
+    .registration{
+        max-width: 650px;    
+    }
+}
+
+@media (max-width: 532px) {
+    .registration__body{
+        max-width: 350px;    
+    }
+    .form__input-item{
+        padding: 8px 15px;
+        margin: 0 0 10px 0;
+        width: 325px;
+    }
+    .registration{
+        max-width: 532px;    
+    }
+}
+
+@media (max-width: 440px) {
+    .registration__body{
+        max-width: 300px;    
+    }
+    .form__input-item{
+        width: 275px;
+    }
+}
+
+
+
+
+
